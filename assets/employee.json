@@ -1,0 +1,14 @@
+[{ 
+    "name": "Udit",
+    "age": 21,
+    "gender": "Male",
+    "department": "CSE",
+    "car": "Ferrari"
+},
+{ 
+    "name": "Nikunj",
+    "age": 21,
+    "gender": "Male",
+    "department": "IT",
+    "car": "Audi"
+}]

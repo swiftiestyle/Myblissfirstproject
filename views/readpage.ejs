@@ -1,0 +1,22 @@
+
+<table>
+    <thead>
+        <tr>
+            <% Object.keys(employee[0]).forEach((key)=>{ %>
+            <th><%= key %></th>
+            <% }) %>
+        </tr>
+    </thead>
+    <tbody>
+        <% employee.forEach((user)=>{ %>
+        <tr>
+            <% Object.values(user).forEach((value)=>{ %>
+            <td> <%= value %> </td>
+            <% }) %>
+        </tr>
+        <% }) %>
+    </tbody>
+</table>
+<div>
+    <a href="http://localhost:1337/download">Download CSV File</a>
+</div>
